@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 
-import 'featureswidget/inheritedwidget_test.dart';
+import 'colortheme/stream_test.dart';
+import 'dialog/dialog_test.dart';
 
 void main() {
   runApp(MaterialApp(
     title: 'flutter study',
     debugShowCheckedModeBanner: false,
-    home: InheritedWidgetWTest(),
+    home: DialogWTest(),
   ));
 }
